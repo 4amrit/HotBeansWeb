@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">HotBeansWeb</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./jobs.html">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./employees.html">Employees</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./courses.html">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./aboutus.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+  <h1 class="display-7 text-center">Your Application</h1>
+  <form>
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Forename</label>
+        <input type="text" class="form-control" id="validationCustom01" aria-valuetext="" required>
+      </div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">Surname</label>
+        <input type="text" class="form-control" id="validationCustom02" aria-valuetext="" required>
+      </div>
+      </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Tell us a bit about yourself</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-md-4">
+      <label for="inputState" class="form-label">Please select a Job/Course from the following</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>Junior Web Developer</option>
+        <option>Trainee Web Developer</option>
+        <option>Head of Financial Department</option>
+        <option>Junior Web Designer (1 POSITION REMAINING)</option>
+        <option>HotBeansWeb Development Course</option>
+        <option>Coding Program</option>
+        <option>Web Developer Training</option>
+      </select>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputDate" class="form-label">Please enter your Date of Birth</label>
+        <input type="date" class="form-control" id="date">
+        <div id="dateHelp" class="form-text">Note: You must be 17 to be eligible for this position.</div>
+      </div>
+    <div class="mb-3">
+        <label for="exampleInputText1" class="form-label">Please enter your Address</label>
+        <input type="text" class="form-control" id="text">
+        <div id="textHelp" class="form-text">Not to worry, we won't share this with anyone.</div>
+      </div>
+    </div>
+    <div class="row g-3">
+      <div class="col-sm-7">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity" required>
+    </div>
+    <div class="col-sm">
+      <label for="inputCounty" class="form-label">County</label>
+      <select class="form-select" id="inputCounty" required>
+        <option selected>Choose...</option>
+        <option>Leicester</option>
+        <option>Nottingham</option>
+        <option>West Midlands</option>
+        <option>Warwick</option>
+      </select>
+    </div>
+      <div class="col-sm">
+        <label for="inputPostcode" class="form-label">Postcode</label>
+        <input type="text" class="form-control" id="inputPostcode" required>
+      </div>
+      <div class="mb-3">
+        <label for="validationDefaultEmail" class="form-label">Email address</label>
+        <div class="input-group"></div>
+        <span class="input-group-email" id="inputGroupPrepend2"></span>
+        <input type="email" class="form-control" id="validationDefaultEmail" aria-describedby="inputGroupPrepend2" required>
+        <div id="validationDefaultEmail" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Tick to confirm you have filled every field.
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
+  </datalist>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+    </div>
+  </datalist>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+    </div>
+  </datalist>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+    </div>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="./aboutus.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./jobs.html">Jobs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./application.html">Join Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">HotBeansWeb</a>
+      </li>
+    </ul>
+  </datalist>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+    </div>
+    
+
+
+  
+
+  
+   
